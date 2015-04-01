@@ -1,4 +1,4 @@
-package org.bcl.weka.pipeline.util;
+package org.bcl.pipeline.runner;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
+import org.bcl.pipeline.util.SortFile;
 
 import weka.attributeSelection.GainRatioAttributeEval;
 import weka.attributeSelection.Ranker;
